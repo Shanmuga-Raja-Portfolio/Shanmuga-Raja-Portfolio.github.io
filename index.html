@@ -1,0 +1,184 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Shanmuga Raja Portfolio — public learning-and-making projects</title>
+    <meta
+      name="description"
+      content="Free, open-source learning-and-making projects by Shan Chinraj: kid-safe coding games, family-safe maker games, and a hands-on machine-learning course."
+    />
+    <meta http-equiv="Content-Security-Policy" content="default-src 'none'; style-src 'unsafe-inline'" />
+    <style>
+      :root {
+        --bg: #f7f8fa;
+        --fg: #1f2328;
+        --muted: #59636e;
+        --card: #ffffff;
+        --line: #d8dee4;
+        --accent: #0b63ce;
+      }
+      @media (prefers-color-scheme: dark) {
+        :root {
+          --bg: #0f1216;
+          --fg: #e6edf3;
+          --muted: #9198a1;
+          --card: #161b22;
+          --line: #30363d;
+          --accent: #4c9bff;
+        }
+      }
+      * {
+        box-sizing: border-box;
+      }
+      body {
+        margin: 0;
+        background: var(--bg);
+        color: var(--fg);
+        font:
+          17px/1.6 system-ui,
+          -apple-system,
+          "Segoe UI",
+          Roboto,
+          sans-serif;
+      }
+      main {
+        max-width: 920px;
+        margin: 0 auto;
+        padding: 52px 20px 64px;
+      }
+      h1 {
+        font-size: 2.3rem;
+        line-height: 1.2;
+        margin: 0 0 10px;
+      }
+      .lead {
+        font-size: 1.15rem;
+        color: var(--muted);
+        margin: 0 0 36px;
+        max-width: 720px;
+      }
+      .grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+        gap: 16px;
+      }
+      .card {
+        background: var(--card);
+        border: 1px solid var(--line);
+        border-radius: 12px;
+        padding: 20px;
+        display: flex;
+        flex-direction: column;
+      }
+      .card h2 {
+        margin: 0 0 4px;
+        font-size: 1.25rem;
+      }
+      .tag {
+        color: var(--muted);
+        font-size: 0.9rem;
+        margin: 0 0 10px;
+      }
+      .card p {
+        margin: 0 0 16px;
+        flex: 1;
+      }
+      .links {
+        display: flex;
+        gap: 16px;
+        flex-wrap: wrap;
+        font-weight: 600;
+      }
+      a {
+        color: var(--accent);
+      }
+      a:focus-visible {
+        outline: 3px solid var(--accent);
+        outline-offset: 2px;
+      }
+      h3 {
+        margin-top: 44px;
+      }
+      ul {
+        padding-left: 1.2em;
+      }
+      footer {
+        margin-top: 48px;
+        padding-top: 20px;
+        border-top: 1px solid var(--line);
+        color: var(--muted);
+        font-size: 0.95rem;
+      }
+    </style>
+  </head>
+  <body>
+    <main>
+      <h1>Shanmuga Raja Portfolio</h1>
+      <p class="lead">
+        Free, open-source learning-and-making projects by Shan Chinraj. Built to be safe for curious kids and
+        honest for adults: no ads, no dark patterns, no data grabs.
+      </p>
+
+      <div class="grid">
+        <section class="card">
+          <h2>Play and Code</h2>
+          <p class="tag">Kids · coding · browser games</p>
+          <p>
+            Nine offline, kid-safe browser games that secretly teach coding. Each has a Game Master Lab where
+            kids tweak the real variables and watch the game change.
+          </p>
+          <div class="links">
+            <a href="https://shanmuga-raja-portfolio.github.io/play-and-code/">Play</a>
+            <a href="https://github.com/Shanmuga-Raja-Portfolio/play-and-code">Code</a>
+          </div>
+        </section>
+
+        <section class="card">
+          <h2>Maker Studio</h2>
+          <p class="tag">Families · maker careers · offline app</p>
+          <p>
+            Seven family-safe games about running a small creative business: bake, cook, make, mend, and grow
+            a tiny studio. No ads, no purchases, no accounts.
+          </p>
+          <div class="links">
+            <a href="https://shanmuga-raja-portfolio.github.io/adeeva/">About &amp; play</a>
+            <a href="https://github.com/Shanmuga-Raja-Portfolio/adeeva">Code</a>
+          </div>
+        </section>
+
+        <section class="card">
+          <h2>ML Workshop</h2>
+          <p class="tag">Adults · machine learning · course</p>
+          <p>
+            A hands-on course: train models on your own machine, from a tiny net written from scratch to LoRA
+            fine-tuning of LLMs and diffusion. CPU-first, license-audited.
+          </p>
+          <div class="links">
+            <a href="https://shanmuga-raja-portfolio.github.io/ml-workshop/">Start</a>
+            <a href="https://github.com/Shanmuga-Raja-Portfolio/ml-workshop">Code</a>
+          </div>
+        </section>
+      </div>
+
+      <h3>Ground rules</h3>
+      <ul>
+        <li>Public projects are MIT-licensed unless the repository says otherwise.</li>
+        <li>
+          Contributions are welcome. Please read a repository's README, CONTRIBUTING and CODE_OF_CONDUCT
+          first.
+        </li>
+        <li>
+          Found a security issue? Use <strong>private vulnerability reporting</strong> on the affected
+          repository (its Security tab). Never open a public issue for a security problem.
+        </li>
+        <li>Be kind. These projects are made in family time, and they stay family friendly.</li>
+      </ul>
+
+      <footer>
+        <a href="https://github.com/Shanmuga-Raja-Portfolio">Shanmuga-Raja-Portfolio on GitHub</a> · To reach
+        the maintainer, open an issue or discussion on the relevant repository.
+      </footer>
+    </main>
+  </body>
+</html>

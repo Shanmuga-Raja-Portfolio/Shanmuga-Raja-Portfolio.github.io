@@ -12,3 +12,4 @@ Each project's own site lives in its repository and appears under this domain:
 | Play and Code | [/play-and-code/](https://shanmuga-raja-portfolio.github.io/play-and-code/) | [play-and-code](https://github.com/Shanmuga-Raja-Portfolio/play-and-code) |
 | Maker Studio | [/adeeva/](https://shanmuga-raja-portfolio.github.io/adeeva/) | [adeeva](https://github.com/Shanmuga-Raja-Portfolio/adeeva) |
 | ML Workshop | [/ml-workshop/](https://shanmuga-raja-portfolio.github.io/ml-workshop/) | [ml-workshop](https://github.com/Shanmuga-Raja-Portfolio/ml-workshop) |
+| pmkit | [/Project-Management_template/](https://shanmuga-raja-portfolio.github.io/Project-Management_template/) | [Project-Management_template](https://github.com/Shanmuga-Raja-Portfolio/Project-Management_template) |
